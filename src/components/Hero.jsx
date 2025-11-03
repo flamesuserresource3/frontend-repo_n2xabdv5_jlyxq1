@@ -29,9 +29,9 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Under-video booking with aligned CTA (single source of truth) */}
+        {/* Under-video booking CTA (button + helper text) */}
         <div className="mt-6 max-w-5xl mx-auto">
-          <div className="flex items-center gap-3 mb-1">
+          <div className="flex items-center gap-3">
             <a
               href="https://cal.com/velodent-ogbkfv/20min"
               target="_blank"
@@ -40,9 +40,8 @@ export default function Hero() {
             >
               Book Now
             </a>
-            <h2 className="text-lg sm:text-xl font-semibold">Book a 20-minute Discovery Call</h2>
           </div>
-          <p className="text-sm opacity-80">Choose a time that works for you. No pressure — explore how Velodent can automate your clinic.</p>
+          <p className="mt-2 text-sm opacity-80">Choose a time that works for you. No pressure — explore how Velodent can automate your clinic.</p>
         </div>
       </div>
     </section>
